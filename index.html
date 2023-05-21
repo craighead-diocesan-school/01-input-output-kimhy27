@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Coding Portfolio</title>
+
+    <!-- Bulma CSS framework (https://bulma.io) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+
+    <script src="code/0-greeting.js"></script>
+    <script src="code/1-welcome.js"></script>
+    <script src="code/2-maori-mihi.js"></script>
+    <script src="code/3-non-maori-mihi.js"></script>
+    <script src="code/4-the-repeater.js"></script>
+    <script src="code/5-madlibs.js"></script>
+  </head>
+
+  <body>
+    <header class="hero is-info">
+      <div class="hero-body">
+        <h1 class="title">Coding Portfolio</h1>
+        <h2 class="subtitle">Projects to help get you started with coding</h2>
+      </div>
+    </header>
+
+    <main class="section">
+      <h2 class="subtitle">Input and Output</h2>
+
+      <div class="columns">
+        <div class="column">
+          <button class="button is-light is-success" onclick="greeting()">🙋 Greeting</button>
+          <button class="button is-light is-danger" onclick="joke()">Joke</button>
+        </div>
+
+        <div class="column">
+          <button class="button is-light is-warning" onclick="welcome()">👋 Welcome</button>
+          <button class="button is-light is-danger" onclick="questionnaire()">Questionnaire</button>
+        </div>
+
+        <div class="column">
+          <button class="button is-light is-danger" onclick="maoriMihi()">Māori Mihi</button>
+          <button class="button is-light is-danger" onclick="nonMaoriMihi()">Non-Māori Mihi</button>
+          <button class="button is-light is-danger" onclick="theRepeater()">The Repeater</button>
+          <button class="button is-light is-danger" onclick="madLibs()">MadLibs</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p><strong>Coding Portfolio</strong> template by <a href="https://github.com/MrHullen">Mr Hullen</a></p>
+        <p>&copy; <a href="https://craighead.school.nz">Craighead Diocesan School</a></p>
+      </div>
+    </footer>
+  </body>
+
+  <style>
+    .column .button {
+      display: block;
+      margin-top: 0.5em;
+    }
+  </style>
+</html>
