@@ -9,6 +9,7 @@ function greeting() {
 }
 
 function joke() {
+  alert('listen to my sick joke!')
   alert("Dad, do you know why it's so dark at night?")
   alert('No, sun')
 }

@@ -13,7 +13,7 @@ function maoriMihi() {
   let hometown = prompt('What is your town?')
 
 
- 
+
   // more outputs here 
   alert('Your mihi:')
   alert('Tēnā koutou katoa,')

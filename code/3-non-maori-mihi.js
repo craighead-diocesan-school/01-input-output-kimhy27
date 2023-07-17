@@ -13,10 +13,10 @@ function nonMaoriMihi() {
   let hometown = prompt('What is your town?')
 
   alert('Your mihi:')
- 
+
   alert('Tēnā koutou,')
-  alert('Kei te mihi au ki a ' + mountain )
-  alert('Kei te mihi au ki a ' + river )
+  alert('Kei te mihi au ki a ' + mountain)
+  alert('Kei te mihi au ki a ' + river)
   alert('Ko Te Triti o Waitangi te waka,')
   alert('Ko Aotearoa te iwi')
   alert('Nō ' + hometown + ' au,')
